@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alt Codes Quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div id="menu" class="menu">
+    <div id="mainborder">
+      <h1 id="title">Alt Codes Quiz</h1>
+      <button id="playButton">Play</button> 
+    </div>
+      <br>
+      <button id="showaltcodes"><a href="https://www.google.com" target="_blank">Show Alt Codes</a></button>
+    </div>
+    <div id="quiz" class="quiz hidden">
+      <div id="progress-bar">
+        <div id="progress"></div>
+      </div>
+      <img id="questionImage" src="" alt="Question">
+      <div id="options"></div>
+      <button id="nextButton" class="hidden">Next</button>
+    </div>
+    <div id="result" class="result hidden">
+      <p id="score"></p>
+      <button id="homeButton">Home</button>
+      <button id="restartButton">Restart</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
