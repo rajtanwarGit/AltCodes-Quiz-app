@@ -1,7 +1,7 @@
 // Array to store questions and options
 const questions = [
     {
-        image: 'q1.jpg', // Replace with actual image path
+        image: 'https://raw.githubusercontent.com/rajtanwarGit/AltCodes-Quiz-app/main/q1.jpg', // Replace with actual image path
         options: [
             { text: '0163', correct: false },
             { text: '0161', correct: true },
@@ -11,7 +11,7 @@ const questions = [
     },
 
     {
-        image: 'q2.jpg', // Replace with actual image path
+        image: 'https://raw.githubusercontent.com/rajtanwarGit/AltCodes-Quiz-app/main/q2.jpg', // Replace with actual image path
         options: [
             { text: '0163', correct: true },
             { text: '0197', correct: false },
@@ -21,7 +21,7 @@ const questions = [
     },
 
     {
-        image: 'q3.jpg', // Replace with actual image path
+        image: 'https://raw.githubusercontent.com/rajtanwarGit/AltCodes-Quiz-app/main/q3.jpg', // Replace with actual image path
         options: [
             { text: '0163', correct: false },
             { text: '0188', correct: false },
@@ -31,7 +31,7 @@ const questions = [
     },
 
     {
-        image: 'q4.jpg', // Replace with actual image path
+        image: 'https://raw.githubusercontent.com/rajtanwarGit/AltCodes-Quiz-app/main/q4.jpg', // Replace with actual image path
         options: [
             { text: '0189', correct: false },
             { text: '0196', correct: false },
@@ -41,7 +41,7 @@ const questions = [
     },
 
     {
-        image: 'q5.jpg', // Replace with actual image path
+        image: 'https://raw.githubusercontent.com/rajtanwarGit/AltCodes-Quiz-app/main/q5.jpg', // Replace with actual image path
         options: [
             { text: '0193', correct: false },
             { text: '0188', correct: false },
@@ -51,7 +51,7 @@ const questions = [
     },
 
     {
-        image: 'C:/Users/Raj/Downloads/Alt Codes Quiz/alt codes questions/q6.jpg', // Replace with actual image path
+        image: 'https://raw.githubusercontent.com/rajtanwarGit/AltCodes-Quiz-app/main/q6.jpg', // Replace with actual image path
         options: [
             { text: '0163', correct: false },
             { text: '0161', correct: false },
@@ -61,7 +61,7 @@ const questions = [
     },
 
     {
-        image: 'C:/Users/Raj/Downloads/Alt Codes Quiz/alt codes questions/q7.jpg', // Replace with actual image path
+        image: 'https://raw.githubusercontent.com/rajtanwarGit/AltCodes-Quiz-app/main/q7.jpg', // Replace with actual image path
         options: [
             { text: '0189', correct: false },
             { text: '0197', correct: false },
@@ -71,7 +71,7 @@ const questions = [
     },
 
     {
-        image: 'C:/Users/Raj/Downloads/Alt Codes Quiz/alt codes questions/q8.jpg', // Replace with actual image path
+        image: 'https://raw.githubusercontent.com/rajtanwarGit/AltCodes-Quiz-app/main/q8.jpg', // Replace with actual image path
         options: [
             { text: '0189', correct: true },
             { text: '0197', correct: false },
@@ -81,7 +81,7 @@ const questions = [
     },
 
     {
-        image: 'C:/Users/Raj/Downloads/Alt Codes Quiz/alt codes questions/q9.jpg', // Replace with actual image path
+        image: 'https://raw.githubusercontent.com/rajtanwarGit/AltCodes-Quiz-app/main/q9.jpg', // Replace with actual image path
         options: [
             { text: '0225', correct: false },
             { text: '0171', correct: false },
@@ -91,7 +91,7 @@ const questions = [
     },
 
     {
-        image: 'C:/Users/Raj/Downloads/Alt Codes Quiz/alt codes questions/q10.jpg', // Replace with actual image path
+        image: 'https://raw.githubusercontent.com/rajtanwarGit/AltCodes-Quiz-app/main/q10.jpg', // Replace with actual image path
         options: [
             { text: '0204', correct: true },
             { text: '0225', correct: false },
@@ -101,7 +101,7 @@ const questions = [
     },
 
     {
-        image: 'C:/Users/Raj/Downloads/Alt Codes Quiz/alt codes questions/q11.jpg', // Replace with actual image path
+        image: 'https://raw.githubusercontent.com/rajtanwarGit/AltCodes-Quiz-app/main/q11.jpg', // Replace with actual image path
         options: [
             { text: '0221', correct: false },
             { text: '0217', correct: false },
@@ -111,7 +111,7 @@ const questions = [
     },
 
     {
-        image: 'C:/Users/Raj/Downloads/Alt Codes Quiz/alt codes questions/q12.jpg', // Replace with actual image path
+        image: 'https://raw.githubusercontent.com/rajtanwarGit/AltCodes-Quiz-app/main/q12.jpg', // Replace with actual image path
         options: [
             { text: '0221', correct: false },
             { text: '0217', correct: false },
@@ -121,7 +121,7 @@ const questions = [
     },
 
     {
-        image: 'C:/Users/Raj/Downloads/Alt Codes Quiz/alt codes questions/q13.jpg', // Replace with actual image path
+        image: 'https://raw.githubusercontent.com/rajtanwarGit/AltCodes-Quiz-app/main/q13.jpg', // Replace with actual image path
         options: [
             { text: '0221', correct: false },
             { text: '0216', correct: true },
@@ -131,7 +131,7 @@ const questions = [
     },
 
     {
-        image: 'C:/Users/Raj/Downloads/Alt Codes Quiz/alt codes questions/q14.jpg', // Replace with actual image path
+        image: 'https://raw.githubusercontent.com/rajtanwarGit/AltCodes-Quiz-app/main/q14.jpg', // Replace with actual image path
         options: [
             { text: '0221', correct: false },
             { text: '0217', correct: true },
@@ -141,7 +141,7 @@ const questions = [
     },
 
     {
-        image: 'C:/Users/Raj/Downloads/Alt Codes Quiz/alt codes questions/q15.jpg', // Replace with actual image path
+        image: 'https://raw.githubusercontent.com/rajtanwarGit/AltCodes-Quiz-app/main/q15.jpg', // Replace with actual image path
         options: [
             { text: '0221', correct: true },
             { text: '0225', correct: false },
@@ -151,7 +151,7 @@ const questions = [
     },
 
     {
-        image: 'C:/Users/Raj/Downloads/Alt Codes Quiz/alt codes questions/q16.jpg', // Replace with actual image path
+        image: 'https://raw.githubusercontent.com/rajtanwarGit/AltCodes-Quiz-app/main/q16.jpg', // Replace with actual image path
         options: [
             { text: '0221', correct: false },
             { text: '0224', correct: true },
@@ -161,7 +161,7 @@ const questions = [
     },
 
     {
-        image: 'C:/Users/Raj/Downloads/Alt Codes Quiz/alt codes questions/q17.jpg', // Replace with actual image path
+        image: 'https://raw.githubusercontent.com/rajtanwarGit/AltCodes-Quiz-app/main/q17.jpg', // Replace with actual image path
         options: [
             { text: '0221', correct: false },
             { text: '0225', correct: true },
@@ -171,7 +171,7 @@ const questions = [
     },
 
     {
-        image: 'C:/Users/Raj/Downloads/Alt Codes Quiz/alt codes questions/q18.jpg', // Replace with actual image path
+        image: 'https://raw.githubusercontent.com/rajtanwarGit/AltCodes-Quiz-app/main/q18.jpg', // Replace with actual image path
         options: [
             { text: '0221', correct: false },
             { text: '0217', correct: false },
@@ -181,7 +181,7 @@ const questions = [
     },
 
     {
-        image: 'C:/Users/Raj/Downloads/Alt Codes Quiz/alt codes questions/q19.jpg', // Replace with actual image path
+        image: 'https://raw.githubusercontent.com/rajtanwarGit/AltCodes-Quiz-app/main/q19.jpg', // Replace with actual image path
         options: [
             { text: '0227', correct: true },
             { text: '0217', correct: false },
@@ -191,7 +191,7 @@ const questions = [
     },
 
     {
-        image: 'C:/Users/Raj/Downloads/Alt Codes Quiz/alt codes questions/q20.jpg', // Replace with actual image path
+        image: 'https://raw.githubusercontent.com/rajtanwarGit/AltCodes-Quiz-app/main/q20.jpg', // Replace with actual image path
         options: [
             { text: '0228', correct: true },
             { text: '0188', correct: false },
@@ -201,7 +201,7 @@ const questions = [
     },
 
     {
-        image: 'C:/Users/Raj/Downloads/Alt Codes Quiz/alt codes questions/q21.jpg', // Replace with actual image path
+        image: 'https://raw.githubusercontent.com/rajtanwarGit/AltCodes-Quiz-app/main/q21.jpg', // Replace with actual image path
         options: [
             { text: '0228', correct: false },
             { text: '0188', correct: false },
@@ -211,7 +211,7 @@ const questions = [
     },
 
     {
-        image: 'C:/Users/Raj/Downloads/Alt Codes Quiz/alt codes questions/q22.jpg', // Replace with actual image path
+        image: 'https://raw.githubusercontent.com/rajtanwarGit/AltCodes-Quiz-app/main/q22.jpg', // Replace with actual image path
         options: [
             { text: '0248', correct: false },
             { text: '0243', correct: true },
@@ -221,7 +221,7 @@ const questions = [
     },
 
     {
-        image: 'C:/Users/Raj/Downloads/Alt Codes Quiz/alt codes questions/q23.jpg', // Replace with actual image path
+        image: 'https://raw.githubusercontent.com/rajtanwarGit/AltCodes-Quiz-app/main/q23.jpg', // Replace with actual image path
         options: [
             { text: '0248', correct: false },
             { text: '0183', correct: true },
@@ -231,7 +231,7 @@ const questions = [
     },
 
     {
-        image: 'C:/Users/Raj/Downloads/Alt Codes Quiz/alt codes questions/q24.jpg', // Replace with actual image path
+        image: 'https://raw.githubusercontent.com/rajtanwarGit/AltCodes-Quiz-app/main/q24.jpg', // Replace with actual image path
         options: [
             { text: '0218', correct: false },
             { text: '0189', correct: false },
@@ -241,7 +241,7 @@ const questions = [
     },
 
     {
-        image: 'C:/Users/Raj/Downloads/Alt Codes Quiz/alt codes questions/q25.jpg', // Replace with actual image path
+        image: 'https://raw.githubusercontent.com/rajtanwarGit/AltCodes-Quiz-app/main/q25.jpg', // Replace with actual image path
         options: [
             { text: '0208', correct: false },
             { text: '0189', correct: false },
@@ -251,7 +251,7 @@ const questions = [
     },
 
     {
-        image: 'C:/Users/Raj/Downloads/Alt Codes Quiz/alt codes questions/q26.jpg', // Replace with actual image path
+        image: 'https://raw.githubusercontent.com/rajtanwarGit/AltCodes-Quiz-app/main/q26.jpg', // Replace with actual image path
         options: [
             { text: '0223', correct: true },
             { text: '0189', correct: false },
@@ -261,7 +261,7 @@ const questions = [
     },
 
     {
-        image: 'C:/Users/Raj/Downloads/Alt Codes Quiz/alt codes questions/q27.jpg', // Replace with actual image path
+        image: 'https://raw.githubusercontent.com/rajtanwarGit/AltCodes-Quiz-app/main/q27.jpg', // Replace with actual image path
         options: [
             { text: '0163', correct: false },
             { text: '0193', correct: true },
@@ -271,7 +271,7 @@ const questions = [
     },
 
     {
-        image: 'C:/Users/Raj/Downloads/Alt Codes Quiz/alt codes questions/q28.jpg', // Replace with actual image path
+        image: 'https://raw.githubusercontent.com/rajtanwarGit/AltCodes-Quiz-app/main/q28.jpg', // Replace with actual image path
         options: [
             { text: '0163', correct: false },
             { text: '0230', correct: true },
