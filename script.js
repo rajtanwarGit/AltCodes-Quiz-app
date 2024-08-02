@@ -1,7 +1,7 @@
 // Array to store questions and options
 const questions = [
     {
-        image: 'https://red-louise-66.tiiny.site/Alt Codes Quiz/alt codes questions/q1.jpg', // Replace with actual image path
+        image: 'q1.jpg', // Replace with actual image path
         options: [
             { text: '0163', correct: false },
             { text: '0161', correct: true },
@@ -11,7 +11,7 @@ const questions = [
     },
 
     {
-        image: 'https://red-louise-66.tiiny.site/Alt Codes Quiz/alt codes questions/q2.jpg', // Replace with actual image path
+        image: 'q2.jpg', // Replace with actual image path
         options: [
             { text: '0163', correct: true },
             { text: '0197', correct: false },
@@ -21,7 +21,7 @@ const questions = [
     },
 
     {
-        image: 'C:/Users/Raj/Downloads/Alt Codes Quiz/alt codes questions/q3.jpg', // Replace with actual image path
+        image: 'q3.jpg', // Replace with actual image path
         options: [
             { text: '0163', correct: false },
             { text: '0188', correct: false },
@@ -31,7 +31,7 @@ const questions = [
     },
 
     {
-        image: 'C:/Users/Raj/Downloads/Alt Codes Quiz/alt codes questions/q4.jpg', // Replace with actual image path
+        image: 'q4.jpg', // Replace with actual image path
         options: [
             { text: '0189', correct: false },
             { text: '0196', correct: false },
@@ -41,7 +41,7 @@ const questions = [
     },
 
     {
-        image: 'C:/Users/Raj/Downloads/Alt Codes Quiz/alt codes questions/q5.jpg', // Replace with actual image path
+        image: 'q5.jpg', // Replace with actual image path
         options: [
             { text: '0193', correct: false },
             { text: '0188', correct: false },
