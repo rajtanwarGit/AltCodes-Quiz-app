@@ -46,6 +46,21 @@ button {
   animation: glow 1s ease-in-out infinite;
 }
 
+#levelbox {
+    padding: 20px;
+}
+
+#levelLabel {
+    padding: 10px;
+}
+
+#level {
+    color: white;
+    background-color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+
 #showaltcodes {
     background-color: lightblue;
     margin: 10px;
@@ -154,3 +169,4 @@ button {
     box-shadow: 0 0 20px rgba(0, 255, 0, 0.5);
   }
 }
+
