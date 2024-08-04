@@ -701,14 +701,6 @@ function shuffleQuestions() {
 
 // Function to display question
 function displayQuestion() {
-  let selectedLevel = levelSelect.options[levelSelect.selectedIndex].value;
-  if(selectedLevel == 2)
-    questions = commonQuestions.slice();
-  else if(selectedLevel == 3)
-    questions = allQuestions.slice();
-  else
-    questions = mostcommonQuestions.slice();
-
   optionsContainer.innerHTML = '';
   
   // Create a heading for the question number
@@ -794,6 +786,15 @@ function displayResult() {
 playButton.addEventListener('click', () => {
   menu.classList.add('hidden');
   quiz.classList.remove('hidden');
+
+  let selectedLevel = levelSelect.options[levelSelect.selectedIndex].value;
+  if(selectedLevel == 2)
+    questions = commonQuestions.slice();
+  else if(selectedLevel == 3)
+    questions = allQuestions.slice();
+  else
+    questions = mostcommonQuestions.slice();
+  
   shuffleQuestions();
   displayQuestion();
 });
