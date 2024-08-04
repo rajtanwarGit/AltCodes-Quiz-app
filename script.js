@@ -1,5 +1,5 @@
 // Array to store questions and options
-const questions = [
+const allQuestions = [
     {
         image: 'https://raw.githubusercontent.com/rajtanwarGit/AltCodes-Quiz-app/main/q1.jpg', // Replace with actual image path
         options: [
@@ -283,6 +283,387 @@ const questions = [
     // Add more questions here
 ];
 
+const commonQuestions = [
+    {
+        image: 'https://raw.githubusercontent.com/rajtanwarGit/AltCodes-Quiz-app/main/q1.jpg', // Replace with actual image path
+        options: [
+            { text: '0163', correct: false },
+            { text: '0161', correct: true },
+            { text: '0184', correct: false },
+            { text: '0196', correct: false }
+        ]
+    },
+
+    {
+        image: 'https://raw.githubusercontent.com/rajtanwarGit/AltCodes-Quiz-app/main/q2.jpg', // Replace with actual image path
+        options: [
+            { text: '0163', correct: true },
+            { text: '0197', correct: false },
+            { text: '0184', correct: false },
+            { text: '0204', correct: false }
+        ]
+    },
+
+    {
+        image: 'https://raw.githubusercontent.com/rajtanwarGit/AltCodes-Quiz-app/main/q3.jpg', // Replace with actual image path
+        options: [
+            { text: '0163', correct: false },
+            { text: '0188', correct: false },
+            { text: '0170', correct: true },
+            { text: '02016', correct: false }
+        ]
+    },
+
+    {
+        image: 'https://raw.githubusercontent.com/rajtanwarGit/AltCodes-Quiz-app/main/q5.jpg', // Replace with actual image path
+        options: [
+            { text: '0193', correct: false },
+            { text: '0188', correct: false },
+            { text: '0184', correct: false },
+            { text: '0182', correct: true }
+        ]
+    },
+
+    {
+        image: 'https://raw.githubusercontent.com/rajtanwarGit/AltCodes-Quiz-app/main/q6.jpg', // Replace with actual image path
+        options: [
+            { text: '0163', correct: false },
+            { text: '0161', correct: false },
+            { text: '0184', correct: true },
+            { text: '0196', correct: false }
+        ]
+    },
+
+    {
+        image: 'https://raw.githubusercontent.com/rajtanwarGit/AltCodes-Quiz-app/main/q7.jpg', // Replace with actual image path
+        options: [
+            { text: '0189', correct: false },
+            { text: '0197', correct: false },
+            { text: '0188', correct: true },
+            { text: '0196', correct: false }
+        ]
+    },
+
+    {
+        image: 'https://raw.githubusercontent.com/rajtanwarGit/AltCodes-Quiz-app/main/q8.jpg', // Replace with actual image path
+        options: [
+            { text: '0189', correct: true },
+            { text: '0197', correct: false },
+            { text: '0188', correct: false },
+            { text: '0196', correct: false }
+        ]
+    },
+
+    {
+        image: 'https://raw.githubusercontent.com/rajtanwarGit/AltCodes-Quiz-app/main/q9.jpg', // Replace with actual image path
+        options: [
+            { text: '0225', correct: false },
+            { text: '0171', correct: false },
+            { text: '0183', correct: false },
+            { text: '0197', correct: true }
+        ]
+    },
+
+    {
+        image: 'https://raw.githubusercontent.com/rajtanwarGit/AltCodes-Quiz-app/main/q10.jpg', // Replace with actual image path
+        options: [
+            { text: '0204', correct: true },
+            { text: '0225', correct: false },
+            { text: '0206', correct: false },
+            { text: '0196', correct: false }
+        ]
+    },
+
+    {
+        image: 'https://raw.githubusercontent.com/rajtanwarGit/AltCodes-Quiz-app/main/q11.jpg', // Replace with actual image path
+        options: [
+            { text: '0221', correct: false },
+            { text: '0217', correct: false },
+            { text: '0205', correct: true },
+            { text: '0196', correct: false }
+        ]
+    },
+
+    {
+        image: 'https://raw.githubusercontent.com/rajtanwarGit/AltCodes-Quiz-app/main/q12.jpg', // Replace with actual image path
+        options: [
+            { text: '0221', correct: false },
+            { text: '0217', correct: false },
+            { text: '0206', correct: true },
+            { text: '0196', correct: false }
+        ]
+    },
+
+    {
+        image: 'https://raw.githubusercontent.com/rajtanwarGit/AltCodes-Quiz-app/main/q13.jpg', // Replace with actual image path
+        options: [
+            { text: '0221', correct: false },
+            { text: '0216', correct: true },
+            { text: '0205', correct: false },
+            { text: '0196', correct: false }
+        ]
+    },
+
+    {
+        image: 'https://raw.githubusercontent.com/rajtanwarGit/AltCodes-Quiz-app/main/q14.jpg', // Replace with actual image path
+        options: [
+            { text: '0221', correct: false },
+            { text: '0217', correct: true },
+            { text: '0205', correct: false },
+            { text: '0196', correct: false }
+        ]
+    },
+
+    {
+        image: 'https://raw.githubusercontent.com/rajtanwarGit/AltCodes-Quiz-app/main/q15.jpg', // Replace with actual image path
+        options: [
+            { text: '0221', correct: true },
+            { text: '0225', correct: false },
+            { text: '0205', correct: false },
+            { text: '0196', correct: false }
+        ]
+    },
+
+    {
+        image: 'https://raw.githubusercontent.com/rajtanwarGit/AltCodes-Quiz-app/main/q18.jpg', // Replace with actual image path
+        options: [
+            { text: '0221', correct: false },
+            { text: '0217', correct: false },
+            { text: '0226', correct: true },
+            { text: '0196', correct: false }
+        ]
+    },
+
+    {
+        image: 'https://raw.githubusercontent.com/rajtanwarGit/AltCodes-Quiz-app/main/q19.jpg', // Replace with actual image path
+        options: [
+            { text: '0227', correct: true },
+            { text: '0217', correct: false },
+            { text: '0205', correct: false },
+            { text: '0196', correct: false }
+        ]
+    },
+
+    {
+        image: 'https://raw.githubusercontent.com/rajtanwarGit/AltCodes-Quiz-app/main/q20.jpg', // Replace with actual image path
+        options: [
+            { text: '0228', correct: true },
+            { text: '0188', correct: false },
+            { text: '0205', correct: false },
+            { text: '0196', correct: false }
+        ]
+    },
+
+    {
+        image: 'https://raw.githubusercontent.com/rajtanwarGit/AltCodes-Quiz-app/main/q21.jpg', // Replace with actual image path
+        options: [
+            { text: '0228', correct: false },
+            { text: '0188', correct: false },
+            { text: '0233', correct: true },
+            { text: '0196', correct: false }
+        ]
+    },
+
+    {
+        image: 'https://raw.githubusercontent.com/rajtanwarGit/AltCodes-Quiz-app/main/q24.jpg', // Replace with actual image path
+        options: [
+            { text: '0218', correct: false },
+            { text: '0189', correct: false },
+            { text: '0207', correct: true },
+            { text: '0171', correct: false }
+        ]
+    },
+
+    {
+        image: 'https://raw.githubusercontent.com/rajtanwarGit/AltCodes-Quiz-app/main/q25.jpg', // Replace with actual image path
+        options: [
+            { text: '0208', correct: false },
+            { text: '0189', correct: false },
+            { text: '0222', correct: true },
+            { text: '0171', correct: false }
+        ]
+    },
+
+    {
+        image: 'https://raw.githubusercontent.com/rajtanwarGit/AltCodes-Quiz-app/main/q26.jpg', // Replace with actual image path
+        options: [
+            { text: '0223', correct: true },
+            { text: '0189', correct: false },
+            { text: '0233', correct: false },
+            { text: '0171', correct: false }
+        ]
+    },
+
+    // Add more questions here
+];
+
+const mostcommonQuestions = [
+    {
+        image: 'https://raw.githubusercontent.com/rajtanwarGit/AltCodes-Quiz-app/main/q1.jpg', // Replace with actual image path
+        options: [
+            { text: '0163', correct: false },
+            { text: '0161', correct: true },
+            { text: '0184', correct: false },
+            { text: '0196', correct: false }
+        ]
+    },
+
+    {
+        image: 'https://raw.githubusercontent.com/rajtanwarGit/AltCodes-Quiz-app/main/q3.jpg', // Replace with actual image path
+        options: [
+            { text: '0163', correct: false },
+            { text: '0188', correct: false },
+            { text: '0170', correct: true },
+            { text: '02016', correct: false }
+        ]
+    },
+
+    {
+        image: 'https://raw.githubusercontent.com/rajtanwarGit/AltCodes-Quiz-app/main/q5.jpg', // Replace with actual image path
+        options: [
+            { text: '0193', correct: false },
+            { text: '0188', correct: false },
+            { text: '0184', correct: false },
+            { text: '0182', correct: true }
+        ]
+    },
+
+    {
+        image: 'https://raw.githubusercontent.com/rajtanwarGit/AltCodes-Quiz-app/main/q6.jpg', // Replace with actual image path
+        options: [
+            { text: '0163', correct: false },
+            { text: '0161', correct: false },
+            { text: '0184', correct: true },
+            { text: '0196', correct: false }
+        ]
+    },
+
+    {
+        image: 'https://raw.githubusercontent.com/rajtanwarGit/AltCodes-Quiz-app/main/q7.jpg', // Replace with actual image path
+        options: [
+            { text: '0189', correct: false },
+            { text: '0197', correct: false },
+            { text: '0188', correct: true },
+            { text: '0196', correct: false }
+        ]
+    },
+
+    {
+        image: 'https://raw.githubusercontent.com/rajtanwarGit/AltCodes-Quiz-app/main/q8.jpg', // Replace with actual image path
+        options: [
+            { text: '0189', correct: true },
+            { text: '0197', correct: false },
+            { text: '0188', correct: false },
+            { text: '0196', correct: false }
+        ]
+    },
+
+    {
+        image: 'https://raw.githubusercontent.com/rajtanwarGit/AltCodes-Quiz-app/main/q9.jpg', // Replace with actual image path
+        options: [
+            { text: '0225', correct: false },
+            { text: '0171', correct: false },
+            { text: '0183', correct: false },
+            { text: '0197', correct: true }
+        ]
+    },
+
+    {
+        image: 'https://raw.githubusercontent.com/rajtanwarGit/AltCodes-Quiz-app/main/q10.jpg', // Replace with actual image path
+        options: [
+            { text: '0204', correct: true },
+            { text: '0225', correct: false },
+            { text: '0206', correct: false },
+            { text: '0196', correct: false }
+        ]
+    },
+
+    {
+        image: 'https://raw.githubusercontent.com/rajtanwarGit/AltCodes-Quiz-app/main/q11.jpg', // Replace with actual image path
+        options: [
+            { text: '0221', correct: false },
+            { text: '0217', correct: false },
+            { text: '0205', correct: true },
+            { text: '0196', correct: false }
+        ]
+    },
+
+    {
+        image: 'https://raw.githubusercontent.com/rajtanwarGit/AltCodes-Quiz-app/main/q13.jpg', // Replace with actual image path
+        options: [
+            { text: '0221', correct: false },
+            { text: '0216', correct: true },
+            { text: '0205', correct: false },
+            { text: '0196', correct: false }
+        ]
+    },
+
+    {
+        image: 'https://raw.githubusercontent.com/rajtanwarGit/AltCodes-Quiz-app/main/q14.jpg', // Replace with actual image path
+        options: [
+            { text: '0221', correct: false },
+            { text: '0217', correct: true },
+            { text: '0205', correct: false },
+            { text: '0196', correct: false }
+        ]
+    },
+
+    {
+        image: 'https://raw.githubusercontent.com/rajtanwarGit/AltCodes-Quiz-app/main/q15.jpg', // Replace with actual image path
+        options: [
+            { text: '0221', correct: true },
+            { text: '0225', correct: false },
+            { text: '0205', correct: false },
+            { text: '0196', correct: false }
+        ]
+    },
+
+    {
+        image: 'https://raw.githubusercontent.com/rajtanwarGit/AltCodes-Quiz-app/main/q20.jpg', // Replace with actual image path
+        options: [
+            { text: '0228', correct: true },
+            { text: '0188', correct: false },
+            { text: '0205', correct: false },
+            { text: '0196', correct: false }
+        ]
+    },
+
+    {
+        image: 'https://raw.githubusercontent.com/rajtanwarGit/AltCodes-Quiz-app/main/q21.jpg', // Replace with actual image path
+        options: [
+            { text: '0228', correct: false },
+            { text: '0188', correct: false },
+            { text: '0233', correct: true },
+            { text: '0196', correct: false }
+        ]
+    },
+
+    {
+        image: 'https://raw.githubusercontent.com/rajtanwarGit/AltCodes-Quiz-app/main/q25.jpg', // Replace with actual image path
+        options: [
+            { text: '0208', correct: false },
+            { text: '0189', correct: false },
+            { text: '0222', correct: true },
+            { text: '0171', correct: false }
+        ]
+    },
+
+    {
+        image: 'https://raw.githubusercontent.com/rajtanwarGit/AltCodes-Quiz-app/main/q26.jpg', // Replace with actual image path
+        options: [
+            { text: '0223', correct: true },
+            { text: '0189', correct: false },
+            { text: '0233', correct: false },
+            { text: '0171', correct: false }
+        ]
+    },
+
+    // Add more questions here
+];
+
+
+let questions = [] ;
+
 // Other variables
 let currentQuestion = 0;
 let score = 0;
@@ -295,7 +676,8 @@ const playButton = document.getElementById('playButton');
 const questionImage = document.getElementById('questionImage');
 const optionsContainer = document.getElementById('options');
 const nextButton = document.getElementById('nextButton');
-const scoreElement = document.getElementById('score');   
+const scoreElement = document.getElementById('score');
+const levelSelect = document.getElementById('level');
 
 
 const homeButton = document.getElementById('homeButton');
@@ -319,6 +701,14 @@ function shuffleQuestions() {
 
 // Function to display question
 function displayQuestion() {
+  let selectedLevel = levelSelect.options[levelSelect.selectedIndex].value;
+  if(selectedLevel == 2)
+    questions = commonQuestions.slice();
+  else if(selectedLevel == 3)
+    questions = allQuestions.slice();
+  else
+    questions = mostcommonQuestions.slice();
+
   optionsContainer.innerHTML = '';
   
   // Create a heading for the question number
